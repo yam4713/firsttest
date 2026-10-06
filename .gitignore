@@ -1,3 +1,25 @@
+# Dependencies and local caches
 node_modules/
 .npm-cache/
+.pnpm-store/
+.yarn/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build and tooling caches
+.vite/
+.cache/
+coverage/
+*.log
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Site packaging artifact
 site-deploy.tar.gz
